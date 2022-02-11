@@ -129,44 +129,4 @@
   }
 }
 
-.ex-13-button:hover .ex-13-top-white {
-  animation: movetopwhite 1s linear;
-}
 
-@keyframes movetopwhite {
-  0% {
-    left: 0%;
-  }
-  30% {
-    left: 30%;
-  }
-  50% {
-    left: 50%;
-  }
-  70%{
-    left: 70%;
-  }
-  100%{
-    left: 100%;
-  }
-}.ex-13-button:hover .ex-13-bottom-white {
-  animation: movebottomwhite 1s linear;
-}
-
-@keyframes movebottomwhite {
-  0% {
-    right: 0%;
-  }
-  30% {
-    right: 30%;
-  }
-  50% {
-    right: 50%;
-  }
-  70%{
-    right: 70%;
-  }
-  100%{
-    right: 100%;
-  }
-}
