@@ -5,3 +5,168 @@
 .ex-1-square:hover {
   background: red;
 }
+
+.ex-2-square {
+  transition: 3s;
+}
+
+.ex-2-square:active {
+  width: 100%;
+}
+
+.ex-3-square {
+  transition: 1s;
+}
+
+.ex-3-square:active {
+  border-radius: 100%;
+}
+
+.ex-4-square {
+  transition: 3s;
+}
+.ex-4-square:hover {
+  opacity: 0;
+}
+
+.ex-5-square {
+  transition: 2s;
+}
+.ex-5-square:hover {
+  transform: scale(1.5);
+}
+
+.ex-5-square:active {
+  transform: scale(0.5);
+}
+
+.ex-6-img:hover {
+  filter: grayscale(100%);
+}
+
+.ex-7-img {
+  transition: 3s;
+}
+
+.ex-7-img:hover {
+  filter: grayscale(100%) hue-rotate(80deg);
+}
+
+.ex-8-img {
+  transition: 3s;
+}
+
+.ex-8-img:hover {
+  filter: grayscale(100%) hue-rotate(80deg);
+  border-radius: 30px;
+}
+
+.ex-9-img {
+  transition: 2s;
+}
+
+.ex-9-img:hover {
+  filter: grayscale(100%) hue-rotate(80deg);
+  border-radius: 30px;
+  transform: scale(0.5);
+}
+
+.ex-10-icon {
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(360deg);
+  }
+}
+
+.ex-11-icon:hover {
+  animation: spin2 2s linear;
+}
+
+@keyframes spin2 {
+  0% {
+    transform: rotate(0);
+  }
+  80% {
+    transform: rotate(270deg);
+  }
+
+  100% {
+    transform: rotate(0);
+  }
+}
+
+.ex-12-button:hover .ex-12-top-white {
+  animation: movetopwhite 1s linear;
+}
+
+@keyframes movetopwhite {
+  0% {
+    left: 10%;
+  }
+  70% {
+    left: 50%;
+  }
+  100% {
+    left: 10%;
+  }
+}
+.ex-12-button:hover .ex-12-bottom-white {
+  animation: movebottomwhite 1s linear;
+}
+
+@keyframes movebottomwhite {
+  0% {
+    right: 10%;
+  }
+  70% {
+    right: 50%;
+  }
+  100% {
+    right: 10%;
+  }
+}
+
+.ex-13-button:hover .ex-13-top-white {
+  animation: movetopwhite 1s linear;
+}
+
+@keyframes movetopwhite {
+  0% {
+    left: 0%;
+  }
+  30% {
+    left: 30%;
+  }
+  50% {
+    left: 50%;
+  }
+  70%{
+    left: 70%;
+  }
+  100%{
+    left: 100%;
+  }
+}.ex-13-button:hover .ex-13-bottom-white {
+  animation: movebottomwhite 1s linear;
+}
+
+@keyframes movebottomwhite {
+  0% {
+    right: 0%;
+  }
+  30% {
+    right: 30%;
+  }
+  50% {
+    right: 50%;
+  }
+  70%{
+    right: 70%;
+  }
+  100%{
+    right: 100%;
+  }
+}
