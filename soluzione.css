@@ -18,7 +18,7 @@
   transition: 1s;
 }
 
-.ex-3-square:active {
+.ex-3-square:hover {
   border-radius: 100%;
 }
 
